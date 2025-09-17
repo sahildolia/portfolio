@@ -1,0 +1,25 @@
+.typewriter-cursor {
+  display: inline-block;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.typewriter-text {
+  position: relative;
+} 
+.home_headline{
+    color: #fff!important;
+    font-size: 32px!important;
+    font-weight: 400!important;
+    letter-spacing: .3px!important;
+    margin-bottom: 0!important;
+}
+

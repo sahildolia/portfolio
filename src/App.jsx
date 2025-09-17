@@ -1,13 +1,14 @@
 import './App.css'
+import Navbar from './components/layout/Navbar/Navbar'
+import BannerPage from './pages/BannerPage/BannerPage'
 
 function App() {
 
   return (
     <>
-<h1 className="text-3xl font-bold underline text-blue-600">
-  Hello Tailwind + React 18
-</h1>
-
+    <Navbar/>
+    <BannerPage/>
+    
     </>
   )
 }

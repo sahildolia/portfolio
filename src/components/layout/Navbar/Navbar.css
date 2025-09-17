@@ -1,0 +1,6 @@
+.container-fluid{
+    padding: 23px 50px;
+}
+.container-fluid img{
+    max-height: 38px!important;
+}

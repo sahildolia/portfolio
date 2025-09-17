@@ -1,0 +1,9 @@
+.social_icons img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.white-svg {
+  filter: brightness(0) invert(1);
+}
