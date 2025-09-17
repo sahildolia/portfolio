@@ -1,0 +1,42 @@
+h1 span{
+    color: #009e66;
+        font-size: 24px;
+    margin-bottom: 15px;
+}
+.email{
+    color: #009e66;
+}
+.coverImg{
+    max-width: 430px;
+}
+.content-title{
+        font-size: 31px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+.main-container{
+    margin: 70px 0px;
+}
+.section-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.sec-p{
+        border-bottom: 2px solid rgba(255, 255, 255, .08);
+    margin-bottom: 0;
+    padding-bottom: 29px;
+
+}
+/*  */
+
+ .content-info {
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding: 29px 0;
+}
+ .content-info .single-info>span {
+    color: #dadada;
+    font-weight: 400;
+    margin-right: 10px;
+}

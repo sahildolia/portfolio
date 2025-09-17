@@ -23,3 +23,8 @@
     margin-bottom: 0!important;
 }
 
+@media(max-width: 448px){
+    .home_headline{
+    font-size: 26px!important;
+    }
+}

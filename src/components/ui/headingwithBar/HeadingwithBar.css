@@ -1,0 +1,75 @@
+/* src/components/ui/headingwithBar/HeadingwithBar.css */
+.heading-container {
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+    font-size: 15px;
+    margin-bottom: 17px;
+  color: #9f9f9f;
+  /* font-weight: 500; */
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* Base bar - DO NOT MODIFY */
+.animated-bar {
+  position: relative;
+  width: 75px;
+  height: 4px;
+  background-color: #009e66;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0px;
+}
+
+.text-left .animated-bar {
+  margin: 0;
+}
+
+/* Moving squares - DO NOT MODIFY */
+.animated-bar span {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: #1d1d1d;
+  animation: move 4s linear infinite;
+}
+
+/* Second square starts later - DO NOT MODIFY */
+.animated-bar span:nth-child(2) {
+  animation-delay: 1s;
+}
+
+/* Keyframes for movement - DO NOT MODIFY */
+@keyframes move {
+  0%   { left: -10px; }
+  100% { left: 75px; }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+  }
+}

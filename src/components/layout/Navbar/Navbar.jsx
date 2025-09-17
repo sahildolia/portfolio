@@ -10,7 +10,7 @@ function Navbar() {
           <img src={logo} className="w-100"/>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link to="/" className="mr-5 hover:text-white">About</Link>
+          <Link to="/about" className="mr-5 hover:text-white">About</Link>
           <Link to="/" className="mr-5 hover:text-white">Resume</Link>
           <Link to="/" className="mr-5 hover:text-white">Portfolio</Link>
           <Link to="/" className="mr-5 hover:text-white">Contact</Link>

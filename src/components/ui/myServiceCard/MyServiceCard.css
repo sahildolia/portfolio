@@ -1,0 +1,7 @@
+.mainCard{
+    border-bottom: 2px solid transparent;
+    transition: .1s ease-in;
+}
+.mainCard:hover{
+    border-bottom: 2px solid #009e66;
+}

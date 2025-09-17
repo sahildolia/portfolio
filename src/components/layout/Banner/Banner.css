@@ -11,3 +11,8 @@
     text-align: left;
     vertical-align: top;
 }
+@media(max-width: 448px){
+    .heading{
+    font-size: 3rem!important;
+    }
+}
