@@ -1,6 +1,6 @@
 import  { useState } from "react";
 import HeadingwithBar from "../../ui/headingwithBar/HeadingwithBar";
-import MyworkCard from "../../ui/myworkCard/myworkCard";
+import MyworkCard from "../../ui/myworkCard/MyworkCard.jsx";
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("All");
