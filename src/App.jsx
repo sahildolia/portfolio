@@ -4,6 +4,7 @@ import Navbar from './components/layout/Navbar/Navbar'
 import AboutPage from './pages/AboutPage/AboutPage'
 import BannerPage from './pages/BannerPage/BannerPage'
 import Modal from './components/ui/Modal/Modal';
+import ResumePage from './pages/ResumePage/ResumePage';
 
 function App() {
 
@@ -15,7 +16,6 @@ function App() {
        <Navbar/>
       <Routes>
         <Route path="/" element={<BannerPage />} />
-        {/* <Route path="/about" element={<AboutPage />} /> */}
         <Route 
           path="/about" 
           element={
@@ -24,7 +24,14 @@ function App() {
             </Modal>
           } 
          /> 
-        {/* Add more modal routes as needed */}
+        <Route 
+          path="/resume" 
+          element={
+            <Modal>
+              <ResumePage />
+            </Modal>
+          } 
+         /> 
       </Routes>
     </div>
     </>
