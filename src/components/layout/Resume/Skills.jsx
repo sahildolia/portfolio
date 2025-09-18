@@ -13,7 +13,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="skills-container py-12 px-4 md:px-8">
+    <div className="skills-container px-4 md:px-8">
       <HeadingwithBar
         subtitle="My level of knowledge in some tools" 
         title="My Skills" 

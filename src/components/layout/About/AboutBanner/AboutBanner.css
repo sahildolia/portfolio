@@ -1,10 +1,10 @@
 h1 span{
-    color: #009e66;
+    color: var(--green);
         font-size: 24px;
     margin-bottom: 15px;
 }
 .email{
-    color: #009e66;
+    color: var(--green);
 }
 .coverImg{
     max-width: 430px;

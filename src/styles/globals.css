@@ -14,3 +14,6 @@ background-color: #1d1d1d;
 .main-container{
     margin: 70px 0px;
 }
+:root {
+  --green: #009e66;
+}

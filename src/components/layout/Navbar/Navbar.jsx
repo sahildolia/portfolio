@@ -13,7 +13,7 @@ function Navbar() {
           <Link to="/about" className="mr-5 hover:text-white">About</Link>
           <Link to="/resume" className="mr-5 hover:text-white">Resume</Link>
           <Link to="/portfolio" className="mr-5 hover:text-white">Portfolio</Link>
-          <Link to="/" className="mr-5 hover:text-white">Contact</Link>
+          <Link to="/contact" className="mr-5 hover:text-white">Contact</Link>
         </nav>
  
       </div>

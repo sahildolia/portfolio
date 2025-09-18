@@ -5,8 +5,8 @@ button{
         cursor: pointer;
 }
 .btn.button-scheme {
-    background-color: #009e66!important;
-    border: 1px solid #009e66!important;
+    background-color: var(--green)!important;
+    border: 1px solid var(--green)!important;
     font-weight: 500!important;
 }
 .button-main.button-scheme {

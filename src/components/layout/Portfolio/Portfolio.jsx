@@ -8,7 +8,7 @@ const Portfolio = () => {
   const tabs = ["All", "Development", "UI/UX Design"];
 
   return (
-    <div className="portfolio-section py-12 px-4 md:px-8">
+    <div className="portfolio-section main-container px-4 md:px-8">
       <HeadingwithBar
         subtitle="Showcasing some of my best work"
         title="Portfolio"

@@ -31,7 +31,7 @@
   position: relative;
   width: 75px;
   height: 4px;
-  background-color: #009e66;
+  background-color:var(--green);
   margin: 0 auto;
   overflow: hidden;
   border-radius: 0px;
