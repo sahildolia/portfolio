@@ -1,0 +1,32 @@
+/* src/components/ui/myworkCard/MyworkCard.css */
+.mainWorkCard {
+    background-color: #1d1d1d;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(10px);
+}
+
+.mainWorkCard:hover {
+    transform: translateY(0);
+    opacity: 1 !important;
+}
+
+.mw_1200 {
+    max-width: 1200px !important;
+}
+
+/* Animation for tab content */
+.flex-wrap {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .mainWorkCard {
+        padding: 1.5rem !important;
+    }
+}

@@ -5,6 +5,7 @@ import AboutPage from './pages/AboutPage/AboutPage'
 import BannerPage from './pages/BannerPage/BannerPage'
 import Modal from './components/ui/Modal/Modal';
 import ResumePage from './pages/ResumePage/ResumePage';
+import PortfolioPage from './pages/PortfolioPage/PortfolioPage';
 
 function App() {
 
@@ -29,6 +30,14 @@ function App() {
           element={
             <Modal>
               <ResumePage />
+            </Modal>
+          } 
+         /> 
+        <Route 
+          path="/portfolio" 
+          element={
+            <Modal>
+              <PortfolioPage />
             </Modal>
           } 
          /> 
