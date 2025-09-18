@@ -1,6 +1,6 @@
 import './AboutBanner.css'
 import HeadingwithBar from '../../../ui/headingwithBar/HeadingwithBar'
-import infoImg from '../../../../assets/info-img.jpg'
+import infoImg from '../../../../assets/img.jpg'
 import Button from '../../../ui/button/Button'
 import Services from '../Services/Services'
 const AboutBanner = () => {

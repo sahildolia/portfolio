@@ -1,3 +1,4 @@
+import Contactform from '../../ui/Contactform/Contactform'
 import HeadingwithBar from '../../ui/headingwithBar/HeadingwithBar'
 import './Contact.css'
 const Contact = () => {
@@ -8,6 +9,9 @@ const Contact = () => {
         title="Get in Touch"
         center={true}
       />
+
+<Contactform/>
+
     </div>
   )
 }

@@ -1,0 +1,14 @@
+.fieldFocus:focus {
+  border-bottom: 2px solid var(--green);
+}
+.fieldFocus{
+    border-bottom: 2px solid transparent;
+}
+.sendBtn {
+  background-color:var(--green);
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #008055;
+}
