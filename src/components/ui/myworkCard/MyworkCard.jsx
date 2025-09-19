@@ -113,7 +113,7 @@ const MyworkCard = ({ activeTab = "All" }) => {
                   className="absolute minW365px inset-0 w-full h-full object-cover object-center"
                   src={item.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full mainWorkCard opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full minW365px mainWorkCard opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-[#009e66] mb-1">
                     {item.subtitle}
                   </h2>
