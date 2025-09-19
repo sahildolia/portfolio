@@ -17,6 +17,17 @@
     animation: fadeIn 0.5s ease-in-out;
 }
 
+.minW365px{
+    min-width: 220px;
+}
+@media(max-width: 572px){
+}
+@media(max-width: 387px){
+.minW365px{
+    min-width: 250px;
+}
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }

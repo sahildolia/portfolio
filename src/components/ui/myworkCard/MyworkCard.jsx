@@ -110,7 +110,7 @@ const MyworkCard = ({ activeTab = "All" }) => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute minW365px inset-0 w-full h-full object-cover object-center"
                   src={item.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full mainWorkCard opacity-0 hover:opacity-100">
