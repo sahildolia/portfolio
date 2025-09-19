@@ -43,7 +43,7 @@ const AboutBanner = () => {
           <span className="block font-semibold text-gray-300">Email:</span>
           <p>
             <a
-              href="mailto:emma@example.com"
+              href="mailto:sahildolia.456@gmail.com"
               className="hover:underline email"
             >
               sahildolia.456@gmail.com

@@ -5,8 +5,8 @@ import MyServiceCard from '../../../ui/myServiceCard/MyServiceCard'
 const Services = () => {
 const services = [
     {
-      title: "Design Trends",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      title: "Web Design",
+      description: "Creating visually stunning and user-friendly interfaces that captivate your audience and enhance user experience.",
       icon: (
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -14,8 +14,8 @@ const services = [
       )
     },
     {
-      title: "PSD Design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      title: "Mockup Design",
+      description: "Designing detailed mockups and prototypes that bring your ideas to life before development begins.",
       icon: (
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
           <circle cx="6" cy="6" r="3"></circle>
@@ -25,8 +25,8 @@ const services = [
       )
     },
     {
-      title: "Customer Support",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      title: "Wordpress Development",
+      description: "Custom WordPress solutions with tailored themes and plugins for easy content management.",
       icon: (
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
           <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -36,7 +36,7 @@ const services = [
     },
     {
       title: "Web Development",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      description: "Building robust, scalable websites and applications with clean code and modern technologies.",
       icon: (
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
           <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
@@ -45,7 +45,7 @@ const services = [
     },
     {
       title: "Fully Responsive",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      description: "Ensuring your website looks and works perfectly across all devices, from desktop to mobile.",
       icon: (
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
           <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
@@ -53,8 +53,8 @@ const services = [
       )
     },
     {
-      title: "Branding",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      title: "Digital Marketing",
+      description: "Strategic online marketing campaigns to boost your visibility and drive targeted traffic.",
       icon: (
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
